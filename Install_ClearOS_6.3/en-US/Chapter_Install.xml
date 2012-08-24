@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Install_ClearOS_6.3.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Install_ClearOS_6.3-Installer_Chapter">
+	<title>The Installer</title>
+	<para>
+		This is a test paragraph
+	</para>
+	
+	<section id="sect-Install_ClearOS_6.3-Installer_Section_booting">
+		<title>Boot Menu</title>
+		<para>
+			The boot media displays a graphical boot menu with several options. If no key is hit within 60 seconds, the default boot option runs. To choose the default, either wait for the timer to run out or hit Enter on the keyboard. To select a different option than the default, use the arrow keys on your keyboard, and hit Enter when the correct option is highlighted.
+		</para>
+		<para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_01.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 01</phrase></textobject>
+            </mediaobject>
+        </para>
+	</section>
+	
+	<section id="sect-Install_ClearOS_6.3-Installer_Section_language">
+		<title>Language Configuring</title>
+		<para>
+		    Once you have made your selection, click Next to continue.
+		</para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_03.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 03</phrase></textobject>
+            </mediaobject>
+	</section>
+	
+	<section id="sect-Install_ClearOS_6.3-Installer_Section_keyboard">
+		<title>Keyboard Configuration</title>
+		<para>
+		    Once you have made your selection, click Next to continue.
+		</para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_04.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 04</phrase></textobject>
+            </mediaobject>
+	</section>
+	
+	<section id="sect-Install_ClearOS_6.3-Installer_Section_storage">
+		<title>Storage Devices</title>
+		<para>
+		    You can install ClearOS on a large variety of storage devices. This screen allows you to select either basic or specialized storage devices. 
+		</para>
+		<para>
+		    Once you have made your selection, click Next to continue.
+		</para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_05.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 05</phrase></textobject>
+            </mediaobject>
+        <para>
+		    For a new installation choice Yes, discard any data.
+		</para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_06.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 06</phrase></textobject>
+            </mediaobject>
+	</section>
+	
+	<section id="sect-Install_ClearOS_6.3-Installer_Section_hostname">
+		<title>Setting the Hostname</title>
+		<para>
+		Setup prompts you to supply a host name for this computer, either as a fully-qualified domain name (FQDN) in the format <application><replaceable>hostname.domainname</replaceable></application> or as a short host name in the format hostname. Many networks have a Dynamic Host Configuration Protocol (DHCP) service that automatically supplies connected systems with a domain name. To allow the DHCP service to assign the domain name to this machine, specify the short host name only. 
+		</para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_07.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 07</phrase></textobject>
+            </mediaobject>
+        <section>
+            <title>Edit Network Connections</title>
+            <para>
+                To configure a network connection manually, click the button Configure Network. The Network Connections dialog appears that allows you to configure wired, wireless, mobile broadband, VPN, and DSL connections for the system using the NetworkManager tool
+            </para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_08.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 08</phrase></textobject>
+            </mediaobject>
+        </section>
+	</section>
+
+	<section id="sect-Install_ClearOS_6.3-Installer_Section_Timezone">
+		<title>Time Zone Configuration</title>
+		<para>
+		    Once you have made your selection, click Next to continue.
+		</para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_09.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 09</phrase></textobject>
+            </mediaobject>
+	</section>
+	
+	<section id="sect-Install_ClearOS_6.3-Installer_Section_Rootpw">
+		<title>Set the Root Password</title>
+		<para>
+		     Setting up a root account and password is one of the most important steps during your installation. The root account is used to install packages, upgrade RPMs, and perform most system maintenance. Logging in as root gives you complete control over your system. 
+		</para>
+		<note>
+			<title>Note</title>
+			 <para>
+				The root user (also known as the superuser) has complete access to the entire system; for this reason, logging in as the root user is best done only to perform system maintenance or administration. 
+			</para>
+		</note>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_10.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 10</phrase></textobject>
+            </mediaobject>
+	</section>
+	
+	<section id="sect-Install_ClearOS_6.3-Installer_Section_DiskPart">
+		<title>Disk Partitioning Setup</title>
+		<para>
+		On this screen you can choose to create the default partition layout in one of four different ways, or choose to partition storage devices manually to create a custom layout. 
+		</para>
+		<para>
+		The first four options allow you to perform an automated installation without having to partition your storage devices yourself. If you do not feel comfortable with partitioning your system, choose one of these options and let the installation program partition the storage devices for you. Depending on the option that you choose, you can still control what data (if any) is removed from the system. 
+		</para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_11.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 11</phrase></textobject>
+            </mediaobject>
+        <section>
+            <title>Review and modify partitioning layout</title>
+            <para>
+                If you chose one of the automatic partitioning options and selected Review, you can either accept the current partition settings (click Next), or modify the setup manually in the partitioning screen. 
+            </para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_12.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 12</phrase></textobject>
+            </mediaobject>
+        </section>
+	</section>
+	
+	<section id="sect-Install_ClearOS_6.3-Installer_Section_BootLoader">
+		<title>Boot Loader Configuration</title>
+		<para>
+		To boot the system without boot media, you usually need to install a boot loader. A boot loader is the first software program that runs when a computer starts. It is responsible for loading and transferring control to the operating system kernel software. The kernel, in turn, initializes the rest of the operating system. 
+		</para>
+		<note>
+			<title>GRUB Passwords Not Required</title>
+			 <para>
+				You may not require a GRUB password if your system only has trusted operators, or is physically secured with controlled console access. However, if an untrusted person can get physical access to your computer's keyboard and monitor, that person can reboot the system and access GRUB. A password is helpful in this case. 
+			</para>
+		</note>
+		 <important>
+			<title>GRUB recognizes only the QWERTY keyboard layout</title>
+			 <para>
+				When selecting a GRUB password, be aware that GRUB recognizes only the QWERTY keyboard layout, regardless of the keyboard actually attached to the system. If you use a keyboard with a significantly different layout, it might be more effective to memorize a pattern of keystrokes rather than the word that the pattern produces. 
+			</para>
+		</important>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_14.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 14</phrase></textobject>
+            </mediaobject>
+	</section>
+	
+	<section id="sect-Install_ClearOS_6.3-Installer_Section_InstallPackages">
+		<title>Installing Packages</title>
+		<para>
+		    At this point there is nothing left for you to do until all the packages have been installed. How quickly this happens depends on the number of packages you have selected and your computer's speed. 
+		</para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_15.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 15</phrase></textobject>
+            </mediaobject>
+	</section>
+	
+	<section id="sect-Install_ClearOS_6.3-Installer_Section_InstallComplete">
+		<title>Installation Complete</title>
+		<para>
+		    Congratulations! Your ClearOS installation is now complete! 
+		</para>
+		<para>
+		The installation program prompts you to prepare your system for reboot. Remember to remove any installation media if it is not ejected automatically upon reboot. 
+		</para>
+            <mediaobject>
+                <imageobject>
+	                <imagedata fileref="./images/install/clearos_install_16.png" width="660px" />
+                </imageobject>
+            <textobject><phrase>clearos install screen 16</phrase></textobject>
+            </mediaobject>
+	</section>
+
+</chapter>
+

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Install_ClearOS_6.3.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Install_ClearOS_6.3-Network_Chapter" lang="en-US">
+	<title>Network Console</title>
+	 <para>
+		Configure network settings after installation and first reboot.
+	</para>
+	 <section id="sect-Install_ClearOS_6.3-Network_Section_login">
+		<title>Configure Your Network Settings</title>
+		 <para>
+			This console is used to configure the network settings on this system. Once you have your network up and running, you can install, configure and manage apps using a standard web browser.
+		</para>
+		 <para>
+			If you need to change your network setting, you can login to access the Network Console.
+		</para>
+		 <mediaobject>
+			<imageobject>
+				<imagedata fileref="./images/install/clearos_install_17.png" width="660px" />
+			</imageobject>
+			 <textobject>
+				<phrase>clearos install screen 17</phrase>
+			</textobject>
+
+		</mediaobject>
+
+	</section>
+	
+	 <section id="sect-Install_ClearOS_6.3-Network_Section_loginscreen">
+		<title>Network Console Login</title>
+		 <para>
+			Login with user root and the rootpassword
+		</para>
+		 <mediaobject>
+			<imageobject>
+				<imagedata fileref="./images/install/clearos_setup_network_01.png" width="660px" />
+			</imageobject>
+			 <textobject>
+				<phrase>clearos setup network screen 01</phrase>
+			</textobject>
+
+		</mediaobject>
+
+	</section>
+	
+	 <section id="sect-Install_ClearOS_6.3-Network_Section_EditNetwork">
+		<title>Edit network settings</title>
+		 <para>
+			Edit Network Mode and DNS
+		</para>
+		 <mediaobject>
+			<imageobject>
+				<imagedata fileref="./images/install/clearos_setup_network_02.png" width="660px" />
+			</imageobject>
+			 <textobject>
+				<phrase>clearos setup network screen 02</phrase>
+			</textobject>
+
+		</mediaobject>
+		 <section>
+			<title>Edit network Interface</title>
+			 <para>
+				Edit Interface, Role, Connection Type, IP Address, Netmask and Gateway.
+			</para>
+			 <mediaobject>
+				<imageobject>
+					<imagedata fileref="./images/install/clearos_setup_network_03.png" width="660px" />
+				</imageobject>
+				 <textobject>
+					<phrase>clearos setup network screen 03</phrase>
+				</textobject>
+
+			</mediaobject>
+
+		</section>
+		
+
+	</section>
+
+</chapter>
+

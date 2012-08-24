@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Install_ClearOS_6.3.ent">
+%BOOK_ENTITIES;
+]>
+<bookinfo id="book-ClearOS_Install_Guide-ClearOS_Install_Guide" lang="en-US">
+	<title>ClearOS Install Guide</title>
+	 <subtitle>Installation ClearOS Community 6.3</subtitle>
+	 <productname>ClearDOCS</productname>
+	 <productnumber>1.0</productnumber>
+	 <edition>1</edition>
+	 <pubsnumber>0</pubsnumber>
+	 <abstract>
+		<para>
+			ClearOS Community 6.3.0 has arrived! Along with the usual round of enhancements, this release introduces new apps focused on the mail server stack. Anchored on the Zarafa for ClearOS solution, you can now implement an on-premise or private cloud mail server using ClearOS. This release includes the following new apps: Zarafa Community for ClearOS, Mail Antivirus, Mail Antispam, Antispam Updates, Greylisting, and more.
+		</para>
+
+	</abstract>
+	 <corpauthor>
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata fileref="Common_Content/images/title_logo.svg" format="SVG" />
+			</imageobject>
+
+		</inlinemediaobject>
+
+	</corpauthor>
+	 <xi:include href="Common_Content/Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	 <xi:include href="Author_Group.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</bookinfo>
+
