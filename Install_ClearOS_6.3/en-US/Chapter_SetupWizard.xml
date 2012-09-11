@@ -11,6 +11,7 @@
 	
 	<section id="sect-Install_ClearOS_6.3-Setup_Wizard_Section_">
 		<title>The sites security certificate is not trusted</title>
+		<para>hey</para>
 		<para>
 		add certificate
 		</para>
